@@ -10228,6 +10228,7 @@ ul.ulproducto{
  
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 ul.ulproducto li{
   background-color: #e7e7e7;
@@ -10235,7 +10236,13 @@ ul.ulproducto li{
   border: 2px var(--success) solid;
   overflow: hidden;
   padding: 0;
-  flex-wrap: wrap;
+  
+}
+@media (min-width: 576px){
+  ul.ulproducto li{
+    flex-basis: calc(50% - 1rem);
+    
+  }
 }
 
 ul.ulproducto li img:hover{
