@@ -10240,6 +10240,12 @@ ul.ulproducto li{
 }
 @media (min-width: 576px){
   ul.ulproducto li{
+    flex-basis: calc(33% - 1rem);
+    
+  }
+}
+@media (min-width: 320px){
+  ul.ulproducto li{
     flex-basis: calc(50% - 1rem);
     
   }
