@@ -10228,7 +10228,7 @@ ul.ulproducto{
  
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
 }
 ul.ulproducto li{
   background-color: #e7e7e7;
