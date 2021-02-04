@@ -10243,3 +10243,10 @@ ul.ulproducto li img:hover{
   transform: scale(1.1,1.1);
 }
 
+.modal-body img{
+  max-height: 400px;
+  height: 310px;
+  width: 110%;
+  padding: 0;
+  margin: 0 auto;
+}
