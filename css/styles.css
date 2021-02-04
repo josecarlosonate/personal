@@ -10238,13 +10238,8 @@ ul.ulproducto li{
   padding: 0;
   
 }
-@media (min-width: 576px){
-  ul.ulproducto li{
-    flex-basis: calc(33% - 1rem);
-    
-  }
-}
-@media (max-width: 320px){
+
+@media (max-width: 321px){
   ul.ulproducto li{
     flex-basis: calc(50% - 1rem);
     
