@@ -10235,6 +10235,7 @@ ul.ulproducto li{
   border: 2px var(--success) solid;
   overflow: hidden;
   padding: 0;
+  flex-wrap: wrap;
 }
 
 ul.ulproducto li img:hover{
