@@ -17,6 +17,7 @@
         let btn = $('.btnInicio').attr('href');
 
         console.log(btn);
+        $('#awards').click();
     }
     // Smooth scrolling using jQuery easing
     $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function () {
